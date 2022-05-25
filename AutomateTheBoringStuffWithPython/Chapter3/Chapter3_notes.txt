@@ -1,0 +1,10 @@
+➊ def sayHello(name):
+       print('Hello, ' + name)
+➋ sayHello('Al')
+
+To define a function to create it. The sayHello('Al') calls the function. The function call passes the string value 'Al' to the functions. A value being passed to a function in a function call is an argument. The argument 'Al' is assigned to the local variable named "name". Variable that have arguments assigend to them are parameters.
+
+The Value a function evaluates to is called the return value.
+
+The None value, represents the absence of a value and is the only value of the NoneType data type.
+Must be typed with capital N.
