@@ -1,0 +1,43 @@
+Practice Questions
+
+1. Why are functions advantageous to have in your programs?
+They help to order code and prevent unnecessary code duplication
+
+2. When does the code in a function execute: when the function is defined or when the function is called?
+When the function is called
+
+3. What statement creates a function?
+def
+
+4. What is the difference between a function and a function call?
+The def statement and the ':'
+
+5. How many global scopes are there in a Python program? How many local scopes?
+There is onw global scopes and there can be technically infinite local scopes (atleast one for each function)
+
+6. What happens to variables in a local scope when the function call returns?
+They are deleted
+
+7. What is a return value? Can a return value be part of an expression?
+The result/value a function evaluates to. Yeah they can be part of an expression .
+
+8. If a function does not have a return statement, what is the return value of a call to that function?
+None
+
+9. How can you force a variable in a function to refer to the global variable?
+prefix the variable with "global "
+
+10. What is the data type of None?
+NoneType
+
+11. What does the import areallyourpetsnamederic statement do?
+It should allow access to all the functions of the this module
+
+12. If you had a function named bacon() in a module named spam, how would you call it after importing spam?
+spam.bacon()
+
+13. How can you prevent a program from crashing when it gets an error?
+by using try and except
+
+14. What goes in the try clause? What goes in the except clause?
+In the try clause goes the code that should be tested for any error and exception. In the except cause the types of error and what to do when they are encountered are defined.
