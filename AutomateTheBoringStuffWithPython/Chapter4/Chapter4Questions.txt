@@ -1,7 +1,7 @@
 Practice Questions
 
 1. What is []?
-An empty list
+An empty list value
 
 2. How would you assign the value 'hello' as the third value in a list stored in a variable named spam? (Assume spam contains [2, 4, 6, 8, 10].)
 spam[2] = 'hello'
@@ -34,16 +34,17 @@ for concatenation '+' and for replication '*'
 append() adds a value exclusively to the end of the list while with insert() you can determine the position with an index
 
 11. What are two ways to remove values from a list?
-del list[index] in array
+del list[index]
 list.remove(value)
 
 12. Name a few ways that list values are similar to string values.
 They both usually contain sequences of data
 like a list you can ask for a specific character in string via an index string[index]
 You can use the "in" function with string and lists to search their content for something.
+They can be be concatenated and replacted wiht '+' and '*' 
 
 13. What is the difference between lists and tuples?
-Lists are mutable while tuples are unmutable
+Lists are mutable while tuples are unmutable(
 
 14. How do you type the tuple value that has just the integer value 42 in it?
 (42,)
