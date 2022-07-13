@@ -10,12 +10,10 @@ def printTable(inputTable):
         colWidths[i] = len(max(inputTable[i], key=len))
 
     print(colWidths)
-    maxWidth = max(colWidths)
-    print(maxWidth)
 
     for y in range(len(inputTable[0])):
         for x in range(len(colWidths)):
-            print(inputTable[x][y].rjust(colWidths[0]),end=' ')
+            print(inputTable[x][y].rjust(colWidths[x]),end=' ')
         print()
 
 printTable(tableData)
