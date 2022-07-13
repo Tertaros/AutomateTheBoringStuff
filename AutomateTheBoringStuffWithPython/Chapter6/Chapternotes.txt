@@ -1,0 +1,6 @@
+Escape character -> Prints as
+\' -> Single quote
+\" -> Double quote
+\t -> Tab
+\n -> Newline (line break)
+\\ -> Backslash
