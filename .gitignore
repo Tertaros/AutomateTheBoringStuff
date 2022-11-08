@@ -1,1 +1,10 @@
 Automate_the_Boring_Stuff_2e_onlinematerials.zip
+__pycache__
+myCats.py
+mydata.bak
+mydata.dat
+mydata.dir
+bacon.txt
+/AutomateTheBoringStuffWithPython/Chapter9/capital*.txt
+/AutomateTheBoringStuffWithPython/Chapter9/mcb.?a?
+/AutomateTheBoringStuffWithPython/Chapter9/mcb.dir 
