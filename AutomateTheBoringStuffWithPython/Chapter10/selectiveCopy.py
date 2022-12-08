@@ -31,14 +31,16 @@ print(targetPath)
 
 #tree = list(searchPath.glob(str('*.'+fileExt))) Does not search within folders recursively
 tree = os.walk(searchPath)
-
 for folderName, subfolders, filenames in tree:
-
     for filename in filenames:
         if filename.endswith("."+fileExt):
-
-            print(folderName + '\\' +filename)
-            print(targetPathText + '\\' +filename)
+            #Checking if file already exists in target directory
+            filePath = targetPath / filename
+            if (filePath.is_file()== True):
+                print('There already exists a file with the name '+ filename + ' target directory ' + targetPathText)
+                continue
+            #print(folderName + '\\' + filename)
+            #print(targetPathText + '\\' + filename)
             shutil.copy(str(folderName + '\\' +filename),str(targetPathText + '\\' +filename))
 
 
